@@ -8,3 +8,4 @@ class Config:
     # Spin up a local redis server
     REDIS_URL = os.getenv("REDIS_URL", "redis://localhost:6379/0")
     WEBSITE_URL = os.getenv("WEBSITE_URL", "https://dentalstall.com/shop/")
+    OUTPUT_FOLDER = os.getenv("OUTPUT_FOLDER", "scrapped_result")

@@ -35,8 +35,8 @@ async def scrape(settings: ScrapeSettings, token: str = Depends(token_auth)):
         cache_factory = CacheFactory()
         cache = cache_factory.get_cache(CacheType.REDIS)
         storage_factory = StorageFactory()
-        storage = storage_factory.get_storage(StorageType.JSON, storage_path=os.path.join(os.getcwd(), "scrapped_result/products.json"))
-        image_downloader = ImageDownloader(os.path.join(os.getcwd(), "scrapped_result/images"))
+        storage = storage_factory.get_storage(StorageType.JSON, storage_path=os.path.join(os.getcwd(), f"{Config.OUTPUT_FOLDER}/products.json"))
+        image_downloader = ImageDownloader(os.path.join(os.getcwd(), f"{Config.OUTPUT_FOLDER}/images"))
         product_manager = ProductManager(cache, storage, image_downloader)
 
         scraper_factory = ScraperFactory()
