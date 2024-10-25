@@ -1,6 +1,8 @@
-# Web Scraper
+# scrapping-tool
 
 A Python and FastAPI based web scraper designed for extracting product information from an e-commerce website. This scraper retrieves product titles, prices, and image URLs, and stores the data in a specified format.
+
+```Result has been written to scrapped_result folder after scrapping all 119 pages on https://dentalstall.com/shop/```
 
 ## Features
 
@@ -60,4 +62,3 @@ You can install the required libraries using pip:
 ```
 
 Replace <SECRET_TOKEN> with your actual token, <proxy_server_url> with your proxy server URL, and <number_of_pages_to_scrape> with the desired number of pages.# scrapping-tool
-# scrapping-tool
