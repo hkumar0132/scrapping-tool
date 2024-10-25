@@ -10,7 +10,7 @@ A Python and FastAPI based web scraper designed for extracting product informati
 - Implements a retry mechanism for failed requests
 - Abstraction:
     - Follows OOP principles and SOLID design principles
-    - Utilizes Observer, Factory, and Decorator design patterns
+    - Utilizes Observer, Factory, Decorator and Singleton design patterns
 - Notification service setup for alerts and updates
 - Uses Redis for caching to minimize frequent updates to storage
 - Stores data in a JSON file, easily extensible to SQL/NoSQL databases
