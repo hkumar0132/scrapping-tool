@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+beautifulsoup4
+requests
+pydantic
+python-dotenv
+pytest
+redis
+aiohttp
