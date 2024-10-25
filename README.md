@@ -61,4 +61,4 @@ You can install the required libraries using pip:
     }'
 ```
 
-Replace <SECRET_TOKEN> with your actual token, <proxy_server_url> with your proxy server URL, and <number_of_pages_to_scrape> with the desired number of pages.# scrapping-tool
+Replace <SECRET_TOKEN> with your actual token, <proxy_server_url> with your proxy server URL, and <number_of_pages_to_scrape> with the desired number of pages.
