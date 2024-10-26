@@ -1,5 +1,5 @@
-from cache.redis_cache import RedisCache
-from cache.base_cache import ICache
+from .redis_cache import RedisCache
+from .base_cache import ICache
 from .enums import CacheType
 from config import Config
 

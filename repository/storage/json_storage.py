@@ -1,10 +1,10 @@
 import json
 import logging
-from models.product import Product
 from typing import Optional, List
-from storage.base_storage import IStorage
 
-logging.basicConfig(level=logging.ERROR)
+from models.product import Product
+from .base_storage import IStorage
+
 logger = logging.getLogger(__name__)
 
 class JSONStorage(IStorage):

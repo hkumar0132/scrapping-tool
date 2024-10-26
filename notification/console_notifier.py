@@ -1,5 +1,6 @@
-from notification.base_notifier import INotifier
 import logging
+
+from notification.base_notifier import INotifier
 
 logger = logging.getLogger(__name__)
 

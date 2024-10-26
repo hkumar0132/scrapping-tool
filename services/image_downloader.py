@@ -1,5 +1,4 @@
 import os
-import ssl
 import aiohttp
 import aiofiles
 import logging

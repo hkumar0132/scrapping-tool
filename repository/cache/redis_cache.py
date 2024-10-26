@@ -1,11 +1,11 @@
 import json
 import redis.asyncio as redis
 import logging
-from models.product import Product
-from cache.base_cache import ICache
 from typing import Optional
 
-logging.basicConfig(level=logging.INFO)
+from models.product import Product
+from .base_cache import ICache
+
 logger = logging.getLogger(__name__)
 
 class RedisCache(ICache):

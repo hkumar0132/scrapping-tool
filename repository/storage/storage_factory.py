@@ -1,5 +1,5 @@
-from storage.json_storage import JSONStorage
-from storage.base_storage import IStorage
+from .json_storage import JSONStorage
+from .base_storage import IStorage
 from .enums import StorageType
 
 class StorageFactory:

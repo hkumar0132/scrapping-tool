@@ -1,4 +1,5 @@
 from typing import Optional
+
 from models.product import Product
 
 class ICache:
